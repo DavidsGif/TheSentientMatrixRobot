@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="styles/world.css" media="screen" />
+  <link rel="icon" type="image/png" href="./favicon.ico">
+  <title>Matrix face</title>
+  <section id="main">
+    <div class="controls">
+      <!-- x: <input type="number" step="0.1" name="x" id="x"> -->
+      scale y: <input type="number" step="0.1" name="scaley" id="scaley">
+      pos y: <input type="number" step="0.1" name="posy" id="posy">
+      <button id="setCameraBTN">Set</button>
+
+
+      <button id="speakBTN">Speak</button>
+      <select name="voiceSelect" id="voiceSelect"></select>
+      <input type="text" name="sentence" id="sentence" placeholder="Hello">
+
+      <!-- <input type="text" name="recog" id="recog" placeholder="Say something"> -->
+      <button class="recogBTN">Listen</button>
+      <!-- <p class="phrase">Phrase...</p>
+      <p class="result">Right or wrong?</p> -->
+      <p class="output">...diagnostic messages</p>
+    </div>
+    <p>Press 'i' to speak</p>
+    <div class="overlay">
+      <nav>
+      </nav>
+    </div>
+  </section>
+</head>
+<body>
+
+<script type="module" src="world/create.js"></script>
+</body>
+</html>
+

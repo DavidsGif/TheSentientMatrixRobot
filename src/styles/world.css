@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.overlay {
+    position: absolute;
+}
+
+.overlay ul {
+  display: flex;
+  margin: 8px;
+  padding: 0;
+}
+
+.overlay li {
+    list-style-type: none;
+  margin: 0 4px;
+}
+
+.controls {
+  display: none;
+}
+
